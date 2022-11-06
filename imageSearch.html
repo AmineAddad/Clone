@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="link">
+            <a href="index.html" class="search">Go back to Google Search</a>
+        </div>
+    <div id="google">
+        <span style="color: rgb(0, 132, 255)">G</span>
+        <span style="color: rgb(255, 75, 75)">o</span>
+        <span style="color: rgb(252, 173, 5)">o</span>
+        <span style="color: rgb(0, 132, 255)">g</span>
+        <span style="color: rgb(3, 160, 3)">l</span>
+        <span style="color: rgb(255, 64, 64)">e</span>   
+       </div>
+       <p style="color: rgb(0, 132, 255)" id ="image">Images</p>
+       <form method="get" action="http://images.google.com/images">
+             <input type="text" name="q" id="form"/>
+            <input type="submit" value="Search" id="submit" />
+      </form>
+        <script>
+            document.getElementById("submit").onclick = function (){
+                location.href = "https://www.google.com/search?q=" + getElementById("form").value
+            }
+        </script>
+            
+    </body>
+</html>

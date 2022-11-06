@@ -1,0 +1,202 @@
+.link{
+    margin-right: 20px;
+    padding: 10px;
+    text-align: right;
+    
+}
+.search{
+    padding-right: 20px;
+    color: grey;
+    text-decoration-line: none;
+}
+
+.search:hover{
+    color: blue;
+    text-decoration-line: underline;
+}
+
+#google{
+    font-size: 90px;
+    text-align: center;
+    margin-top: 12%;
+    letter-spacing: -10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: default;
+    caret-color: transparent;
+}
+#form{
+    margin-left: 35%;
+    margin-top: 30px;
+    width: 15cm;
+    padding: 11px;
+    border-radius: 20px;
+    border: 1px solid rgb(224, 224, 224);
+    outline: none;
+    
+}
+
+#submit{
+    position: relative;
+  top: 50px;
+  left: -420px;
+  background-color: rgb(250, 249, 249);
+  border: none;
+  padding: 10px;
+}
+#lucky{
+    position: relative;
+    top: 50px;
+    left: -420px;
+    background-color: rgb(250, 249, 249);
+    border: none;
+    padding: 10px;
+}
+
+#image{
+    margin-left: 55%;
+    margin-bottom: -20px;
+    margin-top: 0px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+#advanced{
+    font-size: 25px;
+    letter-spacing: -3.5px;
+    padding-left: 10px;
+    margin-top: -30px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title{
+    color: rgb(255, 46, 46);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-left: 44px;
+    margin-top: 3%;
+}
+.line-1 {
+    height: 1px;
+    background: rgb(224, 224, 224);
+  }
+
+#find{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 44px;
+    margin-top: 3.5%;
+}
+
+.criteria{
+    margin-left: 44px;
+}
+.box{
+    margin-left: 225px;
+    margin-top: -37px;
+    padding: 6px;
+    width: 17cm;
+    border-color: rgb(221, 221, 221);
+    outline: none;
+    border-width: 0.5px;
+    
+
+}
+#advancedSearch{
+    background-color: rgb(22, 131, 255);
+    color: white;
+    padding: 6px;
+    outline: none;
+    border-width: 0px;
+    border-radius: 3px;
+    margin-left: 39.5%;
+}
+
+.appbar {
+    margin: 30px 10px;
+  }
+  .appbar label {
+    color: #d93025;
+    font-size: 20px;
+    margin: 50px 30px;
+  }
+  
+  .separator-line {
+    border-bottom: solid 1px #d6d6d6;
+  }
+  
+  .search-container {
+    display: flex;
+    flex-direction: column;
+    /* Align the search container in the center of the viewport */
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    
+  }
+  .search-container .search-field {
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+    border: 1px solid #afafaf;
+    align-items: center;
+    margin: 10px;
+    padding-left: 15px;
+    
+  }
+  .search-container .search-field input {
+    border: none;
+    border-radius: 25px;
+    
+
+  }
+  .search-container .logo-subtext {
+    color: #4285f4;
+    position: relative;
+    left: 110px;
+    top: -18px;
+  }
+  
+  .advanced-search-container {
+    margin: 50px 40px;
+    
+  }
+  .advanced-search-container label {
+    display: inline-block;
+    width: 16%;
+    font-size: 20px;
+  }
+  .advanced-search-container .whitespace {
+    display: inline-block;
+    width: 50%;
+    outline: none;
+  }
+  .advanced-search-container .form-group {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 0;
+  }
+  .advanced-search-container .form-group label {
+    width: 16%;
+    font-size: 14px;
+  }
+  .advanced-search-container .form-group input[type=text] {
+    width: 49%;
+    padding: 2px 0;
+  }
+  .advanced-search-container .form-group .clarification {
+    font-size: 11px;
+    width: 30%;
+    margin-left: 1%;
+  }
+  .advanced-search-container .form-group .clarification .monospace {
+    font-family: monospace;
+    border-width: 5px;
+  }
+  .advanced-search-container .form-group .right-align {
+    width: 50%;
+  }
